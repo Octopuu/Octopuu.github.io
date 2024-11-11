@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: 51275904003@stu.ecnu.edu.cn
   facebook:
-  github: pianfan
+  github: Octopuu
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
 
 footer-text: Copyright (c) 2024 Pianfan
 
-url: https://pianfan.github.io
+url: https://octopuu.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
