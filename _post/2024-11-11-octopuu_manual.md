@@ -2,7 +2,7 @@
 layout: post
 title: "Backdoor attacks in LLMs"
 date: 2024-11-11
-tags: [tag1, tag2]
+tags: [AI Sec, LLM, backdoor attacks]
 comments: true
 author: Octopuu
 ---
