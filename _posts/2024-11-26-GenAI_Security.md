@@ -1,7 +1,16 @@
+---
+layout: post
+title: "生成式AI安全：挑战和对策"
+date:   2024-11-26
+tags: [GenAI, AI Security]
+comments: true
+author: Xiaodie Qin
+---
 
 # 生成式AI安全：挑战和对策
 
-本文深入探究了生成式人工智能所带来的独特安全挑战，并概述了管理这些风险的潜在研究方向。
+本文深入探究了生成式人工智能所带来的独特安全挑战，并概述了管理这些风险的潜在研究方向。  
+Cite as: Zhu B, Mu N, Jiao J, et al. Generative AI security: challenges and countermeasures[J]. arXiv preprint arXiv:2402.12617, 2024.
 
 ## 一、与传统安全不同的问题
 
