@@ -1,8 +1,8 @@
 name: "Octopuu's blog"
 description: "AI Security."
 
-avatar: https://pianfan.github.io/images/avatar.png
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://octopuu.github.io/images/avatar.png
+favicon: https://octopuu.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
