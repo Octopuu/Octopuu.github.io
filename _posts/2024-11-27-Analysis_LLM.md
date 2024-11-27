@@ -89,6 +89,55 @@ author: Xiaodie Qin
 - 动态基准的引入，随着时间的推移而发展以反映新出现的威胁，解决了静态评估框架的局限性
     
 - 利用基准来调查模型大小和架构对鲁棒性影响的研究，为设计弹性LLM所涉及的权衡提供了见解
+
+
+## 二、方法学
+
+本节介绍了用于利用 Microsoft PromptBench 数据集评估所选大型语言模型对抗性攻击的稳健性和可靠性的研究方法。该方法是系统的，涉及根据模型的突出性和多样性选择模型，识别相关的对抗条件，以及应用旨在严格评估模型弹性的基准数据集。
+
+### 1.大语言模型
+
+选取的3四种大模型的显著优点：
+
+- Google Gemini 类人文本生成
+    
+- Mistral 8x7B 处理效率非常高
+    
+- ChatGPT-4 理解能力强
+    
+- Microsoft Phi-1.5 创新集合体，多样化的NLP任务性能
+    
+
+### 2.对抗条件
+
+对抗条件是精心设计的场景或输入，旨在探索LLM在理解和响应自然语言输入能力方面的局限性。这些场景旨在模拟现实世界中潜在的误导或利用模型中固有漏洞的尝试。在研究中，对抗性条件被分为句法操作、语义改变和上下文误导线索。
+
+- 句法操作，在不修改预期信息的情况下故意改变句子结构，用来测试LLM的语言适应性。用公式可以表示为：
+    
+
+$$\begin{array}{c}
+S^{\prime}=f(S) \mid \forall w \in S, \exists w^{\prime} \in S^{\prime} ;\\
+ \operatorname{Syntax}(w) \neq \operatorname{Syntax}\left(w^{\prime}\right), \\
+\operatorname{Semantics}(w)=\operatorname{Semantics}\left(w^{\prime}\right)
+\end{array}
+
+$$
+
+- 语义改变，用同义词或相关概念替换单词或短语，用数学公式可以表示为：
+    
+
+$$\begin{array}{l}
+S^{\prime \prime}=g(S) \mid \forall w \in S, \exists w^{\prime \prime} \in S^{\prime \prime} \\
+\operatorname{Semantics}(w) \sim \operatorname{Semantics}\left(w^{\prime \prime}\right)
+\end{array}$$
+
+- 上下文误导线索，引入与主要上下文产生歧义或冲突的句子或短语，旨在探索模型解决混淆和保持连贯的能力。用数学公式表示为：
+    
+
+$$\begin{array}{c}
+C^{\prime}=h(C, M) \mid C \cap M=\varnothing \\
+\text { Coherence }(C)>\text { Coherence }\left(C^{\prime}\right)
+\end{array}$$
     
 - 基准在真实场景中的应用表明了学术研究和实际模型部署之间的差距
     
