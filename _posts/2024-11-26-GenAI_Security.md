@@ -2,7 +2,7 @@
 layout: post
 title: "生成式AI安全：挑战和对策"
 date:   2024-11-26
-tags: [GenAI, AI Security，文献阅读笔记]
+tags: [GenAI, AI Security,文献阅读笔记]
 comments: true
 author: Xiaodie Qin
 ---
