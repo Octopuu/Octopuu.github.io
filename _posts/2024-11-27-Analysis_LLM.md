@@ -2,12 +2,12 @@
 layout: post
 title: "大型语言模型的比较分析，以评估对抗条件下的鲁棒性和可靠性"
 date:   2024-11-27
-tags: [LLM, AI Security]
+tags: [LLM, AI Security,文献阅读笔记]
 comments: true
 author: Xiaodie Qin
 ---
 
-
+Cite as: Goto T, Ono K, Morita A. A comparative analysis of large language models to evaluate robustness and reliability in adversarial conditions[J]. Authorea Preprints, 2024.
 对四种大语言模型进行了全面评估
 
 - Google Gemini
