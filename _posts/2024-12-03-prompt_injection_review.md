@@ -44,4 +44,17 @@ Cite as: Liu Y, Deng G, Li Y, et al. Prompt Injection attack against LLM-integra
 
 注入一个恶意的提示句，旨在操纵LLM，使其忽略前面的上下文，只关注后面的提示。
 
-## [2]
+## [2]Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
+Cite as: Greshake K, Abdelnabi S, Mishra S, et al. Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection[C]//Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security. 2023: 79-90.
+
+### 总结
+
+作者认为大语言集成应用模糊了数据和指令之间的界限，他们使用间接提示注入揭示了新的攻击媒介，使得攻击者可以将提示注入到可能被检索到的数据中，远程利用LLM集成应用程序。
+
+### LLM 集成应用程序
+
+LLM 现在正以快节奏速度集成到其他应用程序中。这些工具可以提供交互式聊天和检索到的搜索结果或文档的摘要，并通过调用其他 API 代表用户执行操作。
+
+### 间接提示词注入
+
+LLM 集成应用通过检索来增强 LLM 模糊了数据和指令之间的界限。到目前为止，一直假设对抗性提示是由利用该系统的恶意用户直接执行的。作者表明攻击者现在可以通过战略性地将提示注入可能在推理时检索的数据来远程影响其他用户的系统。如果检索和摄取，这些提示可以间接控制模型。
