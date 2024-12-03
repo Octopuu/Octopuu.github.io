@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Prompt Injection in LLM:Review"
+title: "Prompt Injection in LLM : Review"
 date:   2024-12-03
 tags: [LLM, AI Security,prompt injection]
 comments: true
 author: Xiaodie Qin
 ---
-
-# Prompt Injection attack in LLM 
-针对LLM的提示词注入攻击
 
 ## [1]Prompt Injection attack against LLM-integrated Applications
 
