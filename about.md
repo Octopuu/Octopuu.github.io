@@ -17,3 +17,15 @@ permalink: /about/
 ## 版权声明
 
 本博客文章都是我的原创文章，版权归我所有，转载请与我联系获得授权许可。
+
+## About Me
+Hello, my name is Octopuu, and I am a first-year graduate student at East China Normal University, majoring in AI Safety. 
+
+This is my personal blog created on the GitHub Pages platform, used to record and share my learning experiences and growth achievements in technology. 
+
+If you have any questions about my article or notice any errors in it, you can contact me by email. 
+
+If you share my research interests, feel free to email me to exchange ideas. 
+
+## Copyright Notice
+All blog articles on this site are my original articles, and the copyright belongs to me. Please contact me for permission to reproduce.
