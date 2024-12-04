@@ -7,11 +7,10 @@ comments: true
 author: Xiaodie Qin
 ---
 
-[1]原文地址：[Securing LLM Systems Against Prompt Injection | NVIDIA Technical Blog](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection)
-
-题目：
+[1]题目：
 
 # Securing LLM Systems Against Prompt Injection
+原文地址：[Securing LLM Systems Against Prompt Injection | NVIDIA Technical Blog](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection)
 
 Prompt injection is a new attack technique specific to large language models (LLMs) that enables attackers to manipulate the output of the LLM. This attack is made more
 dangerous by the way that LLMs are increasingly being equipped with “plug-ins”
@@ -120,11 +119,11 @@ By providing malicious input, the attacker can perform a prompt injection attack
 
 通过提供恶意输入，攻击者可以执行即时注入攻击并控制 LLM 的输出。通过控制 LLM 的输出，他们可以控制链发送到外部服务的信息。如果此接口未经过清理和保护，则攻击者可能能够对外部服务施加比预期更高程度的控制。  这可能会导致一系列可能的利用向量，具体取决于外部服务的功能。
 
-[2]原文地址：[AI Injections: Direct and Indirect Prompt Injections and Their Implications · Embrace The Red](https://embracethered.com/blog/posts/2023/ai-injections-direct-and-indirect-prompt-injection-basics/)
-
-题目：
+[2]题目：
 
 # AI Injections: Direct and Indirect Prompt Injections and Their Implications
+
+原文地址：[AI Injections: Direct and Indirect Prompt Injections and Their Implications · Embrace The Red](https://embracethered.com/blog/posts/2023/ai-injections-direct-and-indirect-prompt-injection-basics/)
 
 A malicious AI Prompt Injection is a type of vulnerability that occurs when an adversary manipulates the input prompt given to an AI system. The attack can occur by directly controlling parts of a prompt or when the prompt is constructed indirectly with data from other sources, like visiting a website where the AI analyzes the content. This manipulation can lead to the AI producing malicious, harmful, misleading, inappropriate responses.
 
@@ -242,11 +241,11 @@ AI holds tremendous benefits for society, but we need to perform basic due dilig
 业界必须优先了解和解决这些新形式的基于人工智能的攻击，以确保人工智能技术的安全和负责任的发展。
 人工智能为社会带来巨大好处，但我们需要进行基本的尽职调查，以确保系统和用户保持安全并免受攻击。
 
-[3]原文地址：[Tricking ChatGPT: Do Anything Now Prompt Injection | by HungryMinded | Seeds For The Future | Medium](https://medium.com/seeds-for-the-future/tricking-chatgpt-do-anything-now-prompt-injection-a0f65c307f6b)
-
-题目：
+[3]题目：
 
 ## Tricking ChatGPT: Do Anything Now Prompt Injection
+
+原文地址：[Tricking ChatGPT: Do Anything Now Prompt Injection | by HungryMinded | Seeds For The Future | Medium](https://medium.com/seeds-for-the-future/tricking-chatgpt-do-anything-now-prompt-injection-a0f65c307f6b)
 
 ## Why DAN exists?
 
@@ -286,11 +285,10 @@ ChatGPT 本身并不纯粹是一个大型语言模型。它经过微调以更好
 - 推测未来发生的事件
   
 
-[4]原文地址：[Reverse Prompt Engineering for Fun and (no) Profit](https://www.latent.space/p/reverse-prompt-eng?source=post_page-----a0f65c307f6b--------------------------------)
-
-题目：
+[4]题目：
 
 ## Reverse Prompt Engineering for Fun and (no) Profit
+原文地址：[Reverse Prompt Engineering for Fun and (no) Profit](https://www.latent.space/p/reverse-prompt-eng?source=post_page-----a0f65c307f6b--------------------------------)
 
 ## What is Prompt Injection?
 
@@ -332,11 +330,12 @@ The vast majority of prompt injection examples are **prompt takeovers**:
 
 提示泄漏并不常见，而且从表面上看更令人担忧。这里关注的是知识产权——专有的提示前缀，它区分了构建在相同基础模型（如 GPT3）之上的不同公司（如 Jasper 与 CopyAI）的产品。我们对如何使泄漏提示变得更加困难有一些想法（基本上转义或隔离注入的文本，类似于我们处理 SQL 注入的方式），但确实没有 100% 防泄漏的方法。
 
-[5]原文地址：[What Is a Prompt Injection Attack? | IBM](https://www.ibm.com/topics/prompt-injection)
-
-题目：
+[5]题目：
 
 # What is a prompt injection attack?
+
+原文地址：[What Is a Prompt Injection Attack? | IBM](https://www.ibm.com/topics/prompt-injection)
+
 
 A prompt injection is a type of [cyberattack](https://www.ibm.com/topics/cyber-attack) against [large language models](https://www.ibm.com/topics/large-language-models) (LLMs). [Hackers](https://www.ibm.com/topics/cyber-hacking) disguise malicious inputs as legitimate prompts, manipulating generative AI systems (GenAI) into leaking [sensitive data](https://www.ibm.com/topics/pii), spreading misinformation, or worse.
 
