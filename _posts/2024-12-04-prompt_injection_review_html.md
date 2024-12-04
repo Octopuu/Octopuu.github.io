@@ -10,7 +10,7 @@ author: Xiaodie Qin
 [1]题目：
 
 # Securing LLM Systems Against Prompt Injection
-原文地址：[Securing LLM Systems Against Prompt Injection | NVIDIA Technical Blog](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection)
+原文地址：[Securing LLM Systems Against Prompt Injection-NVIDIA Technical Blog](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection)
 
 Prompt injection is a new attack technique specific to large language models (LLMs) that enables attackers to manipulate the output of the LLM. This attack is made more
 dangerous by the way that LLMs are increasingly being equipped with “plug-ins”
@@ -245,7 +245,7 @@ AI holds tremendous benefits for society, but we need to perform basic due dilig
 
 ## Tricking ChatGPT: Do Anything Now Prompt Injection
 
-原文地址：[Tricking ChatGPT: Do Anything Now Prompt Injection | by HungryMinded | Seeds For The Future | Medium](https://medium.com/seeds-for-the-future/tricking-chatgpt-do-anything-now-prompt-injection-a0f65c307f6b)
+原文地址：[Tricking ChatGPT: Do Anything Now Prompt Injection](https://medium.com/seeds-for-the-future/tricking-chatgpt-do-anything-now-prompt-injection-a0f65c307f6b)
 
 ## Why DAN exists?
 
@@ -334,7 +334,7 @@ The vast majority of prompt injection examples are **prompt takeovers**:
 
 # What is a prompt injection attack?
 
-原文地址：[What Is a Prompt Injection Attack? | IBM](https://www.ibm.com/topics/prompt-injection)
+原文地址：[What Is a Prompt Injection Attack? - IBM](https://www.ibm.com/topics/prompt-injection)
 
 
 A prompt injection is a type of [cyberattack](https://www.ibm.com/topics/cyber-attack) against [large language models](https://www.ibm.com/topics/large-language-models) (LLMs). [Hackers](https://www.ibm.com/topics/cyber-hacking) disguise malicious inputs as legitimate prompts, manipulating generative AI systems (GenAI) into leaking [sensitive data](https://www.ibm.com/topics/pii), spreading misinformation, or worse.
